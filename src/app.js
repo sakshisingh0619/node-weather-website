@@ -1,11 +1,13 @@
 //const path = require("path");
+//const express = require("express");
+//const hbs = require("hbs");
+//const geocode = require("./utils/geocode");
+//const forecast = require("./utils/forecast");
+
 import path from "path";
 import express from "express";
 import hbs from "hbs";
-//const express = require("express");
-//const hbs = require("hbs");
 import geocode from "./utils/geocode.js";
-//const geocode = require("./utils/geocode");
 import forecast from "./utils/forecast.js";
 
 const app = express();
